@@ -9,6 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Show Error
+
 ```
 Cannot find module 'ajv/dist/compile/codegen'
 Require stack:
@@ -21,7 +22,9 @@ Require stack:
 - E:\xstopwatch\node_modules\webpack-dev-server\lib\Server.js
 - E:\xstopwatch\node_modules\react-scripts\scripts\start.js
 ```
+
 To fix this issue use
+
 ```
 npm install --save-dev ajv@^7
 ```
@@ -34,7 +37,7 @@ You may also see any lint errors in the console.
 
 ### `Deploy to Vercel`
 
-XDisplayName [https://xdisplayname-orpin.vercel.app/](https://xdisplayname-orpin.vercel.app/) to view it in your browser.
+XDisplayName [https://x-display-name1.vercel.app/](https://x-display-name1.vercel.app/) to view it in your browser.
 
 This is Simple DisplayName used useState
 
